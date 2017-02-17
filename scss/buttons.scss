@@ -1,0 +1,92 @@
+/* ----- BUTTONS ----- */
+
+
+.btn-float {
+    z-index:        100;
+    display:       none;
+    position:     fixed;
+    bottom:        20px;
+    right:         20px;
+    width:         70px;
+    height:        70px;
+    border-radius: 50px;
+    background: url('../images/float-call.svg') no-repeat;
+    background-size:     25px 25px;
+    background-position: 23px 16px;
+    background-color:            rgba(34, 211, 105, 0.95);
+    box-shadow: 0 4px 8px 0 $shadow, 0 6px 20px 0 $shadow;
+
+    p {
+        font-family: Arial, Sans-Serif;
+        color:                   white;
+        font-size:                12px;
+        font-weight:               400;
+        padding:      46px 10px 0 20px;
+    }
+}
+
+.outline {
+    font-size:              12px;
+    font-weight:             600;
+    margin-left:            20px;
+    padding: 18px 40px 15px 40px;
+}
+
+.btn.outline2 {
+    font-size:              18px;
+    font-weight:             600;
+    padding: 20px 20px 16px 20px;
+    margin:  70px 10px 20px 10px;
+}
+
+.btn.outline3, .btn.outline4 {
+    font-size:              14px;
+    font-weight:             600;
+    width:                 190px;
+    padding: 12px 18px 12px 18px;
+    margin:  20px 10px 20px 30px;
+}
+
+.btn.outline4 {
+    width:                 100px;
+    margin-left:            auto;
+    margin-right:           auto;
+    padding: 10px 10px 10px 10px;
+}
+
+.outline, .outline2, .outline3, .outline4 {
+    border:       none;
+    color:   $btn-text;
+    background: $brand;
+    border-radius: 0px;
+    transition:             all 0.4s ease;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 4px 8px 0 $shadow, 0 6px 20px 0 $shadow;
+}
+
+.outline.active,
+.outline:active,
+.outline:focus,
+.outline:hover,
+.outline.active,
+.outline2:active,
+.outline2:focus,
+.outline2:hover,
+.outline3.active,
+.outline3:active,
+.outline3:focus,
+.outline3:hover,
+.outline4.active,
+.outline4:active,
+.outline4:focus,
+.outline4:hover,
+.open {
+
+    background: $hover;
+    color:   $btn-text;
+}
+
+#submit {
+    box-shadow: 0 4px 8px 0 $shadow, 0 6px 20px 0 $shadow;
+    transition: all 0.5s ease;
+}

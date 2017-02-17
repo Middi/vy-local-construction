@@ -1,0 +1,65 @@
+* {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    font-family: 'Merriweather', serif;
+    color:              $link;
+    transition: all 0.5s ease;
+}
+
+a:hover {
+    color:         $brand;
+    text-decoration: none;
+}
+
+.active {color: $brand;}
+
+h1 {
+    font-size:  24px;
+    color:    $brand;
+    font-weight: 600;
+}
+
+h2 {
+    font-size:       48px;
+    color:          white;
+    font-weight:      700;
+    padding-bottom: 0.1em;
+}
+
+h3 {
+    color:  $grey-54;
+    font-size:  28px;
+    font-weight: 700;
+}
+
+h4 {
+    color:  $grey-54;
+    font-size:  18px;
+    font-weight: 700;
+}
+
+h5 {
+    font-size:  28px;
+    font-weight: 200;
+    color:    $brand;
+}
+
+p {
+    font-size: 14px;
+    color:       $p;
+}
+
+.lead {font-weight: 600;}
+
+.text-muted {padding: 16px;}
+
+span {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 70px;
+}

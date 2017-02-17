@@ -1,0 +1,313 @@
+/* ----- MEDIA QUERIES ------ */
+
+
+/* -- BREAK 1 -- */
+@media only screen and (max-width: 1200px) {
+
+
+    .logo {max-width: 500px;}
+
+    .services-column {
+        padding:          50px;
+        background-size: 500px;
+    }
+}
+
+
+/* -- BREAK 2 -- */
+@media only screen and (max-width: 992px) {
+
+    .logo {width: 450px;}
+
+    .outline {display: none;}
+
+    .call {display: none;}
+
+    .flex-parent {display: none;}
+
+    .flex-parent2 {display: flex;}
+
+    .services {
+        width:   100%;
+        height: 550px;
+
+        h3 {font-size: 2.2em;}
+    }
+
+    .services-column {
+        background:   none;
+        margin-right: auto;
+        margin-left:  auto;
+        max-width:   450px;
+        padding: 50px 30px;
+
+        .service-top-text {margin-left: 16px;}
+
+        h3 {text-align: center;}
+
+        hr {
+            margin-right: auto;
+            margin-left:  auto;
+        }
+
+        .rss {
+            margin-left:  auto;
+            margin-right: auto;
+            max-width:   650px;
+            text-align: center;
+        }
+
+        .rss li {
+            width:       320px;
+            text-align:   left;
+            margin: 0 0 0 20px;
+        }
+    }
+
+    .btn.outline3 {margin-top: 60px;}
+}
+
+
+/* -- BREAK 3 -- */
+@media only screen and (max-width: 850px) {
+
+    .bar {
+        height:       80px;
+        padding-top:  18px;
+        text-align: center;
+    }
+
+    .logo {
+        text-align: center;
+        height:       80px;
+        width:        100%;
+        margin-left:  auto;
+        margin-right: auto;
+    }
+
+    .logo-img {
+        margin-left:  auto;
+        margin-right: auto;
+    }
+
+    .btn-float {display: block;}
+
+    .tel {display: none;}
+
+    .btn.outline2 {margin-top: 30px;}
+
+    #bar-main {height: 560px;}
+
+    .hero-content {
+        padding: 90px 25px 0;
+
+        h2 {font-size: 36px;}
+    }
+
+    .how-color {background: none;}
+
+    .how-it-works h4 {margin: 30px 0 0;}
+
+    .flex-parent {display: block;}
+
+    .flex-parent2 {display: none;}
+
+    .flex-child {
+        display:       block;
+        text-align:   center;
+        width:         260px;
+        margin-right:   auto;
+        margin-left:    auto;
+        padding: 10px 0 30px;
+    }
+
+    .flex-img {
+        padding-top: 50px;
+        display:    block;
+
+        img {
+            width:       70px;
+            padding-bottom: 0;
+        }
+    }
+
+    .services {
+        width: 100%;
+
+        h3 {font-size: 2.2em;}
+    }
+
+    .services-column {
+        margin-right: auto;
+        margin-left:  auto;
+        max-width:   450px;
+        padding: 70px 30px;
+
+        .service-top-text {
+            margin-left: 16px;
+        }
+
+        h3 {text-align: center;}
+
+        hr {
+            margin-right: auto;
+            margin-left:  auto;
+        }
+
+        .rss {
+            margin-left:  auto;
+            margin-right: auto;
+            max-width:   650px;
+            text-align: center;
+        }
+
+        .rss li {
+            max-width:   420px;
+            text-align:   left;
+            margin: 0 0 0 20px;
+        }
+    }
+
+    .btn.outline3 {width: 220px;}
+}
+
+
+/* -- BREAK 4 -- */
+@media only screen and (max-width: 600px) {
+
+    .logo {
+        height:           80px;
+        padding:             0;
+        width:            100%;
+        vertical-align: middle;
+
+        h1 {font-size: 22px;}
+    }
+
+    #bar-main {height: 480px;}
+
+    .call {display: none;}
+
+    .btn.outline2 {
+        margin-top:        20px;
+        font-size:         16px;
+        padding: 16px 20px 14px;
+    }
+
+    .hero-content {
+        padding: 60px 15px 0;
+
+        h2 {font-size: 34px;}
+
+        h5 {font-size: 20px;}
+    }
+
+    .btn.outline3 {margin-left: 0px;}
+
+    .form {padding: 30px 20px;}
+}
+
+
+/* -- BREAK 5 -- */
+@media only screen and (max-width: 450px) {
+
+    .logo h1 {font-size: 20px;}
+
+    #bar-main {height: 450px;}
+
+    .hero-content {
+        padding: 60px 15px 0;
+
+        h2 {font-size: 32px;}
+
+        h5 {font-size: 18px;}
+    }
+
+    .form, .how-it-works, .services h3 {
+        margin:  20px 0;
+        font-size: 28px;
+    }
+
+    .services {
+        background:        none;
+        background-color: $blue;
+    }
+
+    .services-column {
+        background: none;
+        width:      100%;
+        padding:    30px;
+
+        .service-top-text {
+            width:    100%;
+            margin-left: 0;
+        }
+
+        .rss {max-width: 380px;}
+
+        .rss li {
+            margin:              0;
+            max-width:       380px;
+            padding: 0 12px 0 18px;
+        }
+
+        .btn.outline3 {width: 200px;}
+    }
+
+    .service-item {font-size: 12px;}
+
+    #callcontain {background: none;}
+
+    footer {font-size: 8px;}
+}
+
+
+/* -- BREAK 6 -- */
+@media only screen and (max-width: 350px) {
+
+    .logo h1 {font-size: 18px;}
+
+    .hero-content {
+        padding: 60px 15px 0;
+
+        h2 {font-size: 30px;}
+
+        h5 {font-size: 16px;}
+    }
+
+    .flex-child {
+        width: 230px;
+
+        small {font-size: 0.8em;}
+    }
+
+    .form h3, .how-it-works, .services {
+        margin:  15px 0;
+        font-size: 26px;
+    }
+
+    .services-column {
+        width:       100%;
+        padding: 30px 5px;
+
+        .service-top-text {
+            width:    100%;
+            margin-left: 0;
+        }
+
+        .rss {max-width: 300px;}
+
+        .rss li {
+            margin:       0 0 0 10px;
+            max-width:         300px;
+            padding: 0 15px 2px 20px;
+        }
+    }
+
+    .service-item {font-size: 11px;}
+
+    .form {
+        padding: 30px 20px;
+        background:   none;
+    }
+}

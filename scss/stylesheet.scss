@@ -1,0 +1,306 @@
+
+
+@import "normalise";
+@import "colors";
+@import "typography";
+@import "buttons";
+
+
+/* HERO IMAGE SECTION */
+
+#bar-main {
+    background: url('../images/masthead.jpg') center no-repeat;
+    background-size: cover;
+    width:            100%;
+    height:          695px;
+}
+
+.bar {
+    height: 90px;
+    width: 100%;
+    padding-top: 18px;
+    vertical-align: middle;
+    background-color: $nav;
+}
+
+.logo {
+    height:           90px;
+    max-width:       600px;
+    margin-top:      -18px;
+    margin-left:      auto;
+    margin-right:     auto;
+    display:  inline-table;
+    text-align:     center;
+    vertical-align: middle;
+}
+
+.logo h1 {
+    display:    table-cell; // display: none or table cell; to toggle logo
+    vertical-align: middle;
+}
+
+.logo-img {
+    height:   100%;
+    padding:   2px;
+    display:  none; // display: block or none; to toggle logo
+}
+
+.tel {
+    float:    right;
+    padding: 16px 0;
+    color:    white;
+
+    span {
+        font-size:   18px;
+        font-weight:  300;
+        line-height: 18px;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+
+.hero-content {
+    margin-left:     auto;
+    margin-right:    auto;
+    text-align:    center;
+    max-width:      900px;
+    padding: 150px 30px 0;
+    clear:           both;
+}
+
+.call {
+    width:      150px;
+    height:      68px;
+    padding: 13px 5px;
+    font-size:   18px;
+}
+
+.call-text {
+    color:        black;
+    height:        40px;
+    width:        200px;
+    font-size:     18px;
+    margin-top:   -70px;
+    padding: 0 0 0 60px;
+}
+
+
+/* HOW IT WORKS SECTION */
+
+.how-color {
+  background: url('../images/how-back.png') left no-repeat;
+  h3 {text-transform: uppercase;}
+}
+
+.how-it-works {
+    margin-left:    auto;
+    margin-right:   auto;
+    height:         auto;
+    padding: 50px 0 90px;
+
+    hr {
+        width:              34px;
+        height:              4px;
+        margin-top:            0;
+        margin-left:        auto;
+        margin-right:       auto;
+        background-color: $brand;
+        color:  $brand;
+        border: 0 none;
+    }
+}
+
+.flex-parent {
+    padding:         0;
+    width:        100%;
+    margin-left:  auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.flex-child {
+    display:  inline-block;
+    text-align:       left;
+    width:           248px;
+    height:           auto;
+    border-radius:     4px;
+    padding: 60px 18px 5px;
+
+  h4 { text-transform: uppercase;}
+}
+
+.flex-img {
+    img {
+        width:          55px;
+        padding-bottom: 58px;
+    }
+
+    display: inline;
+}
+
+.flex-parent2 {
+    display:                  none;
+    justify-content: space-between;
+}
+
+.flex-child2 {
+    width: 300px;
+    height: auto;
+    text-align: center;
+    border-radius: 4px;
+    padding: 60px 6px 5px;
+
+    h4 {text-transform: uppercase;}
+
+    img {width: 60px;}
+}
+
+
+
+/* SERVICE SECTION */
+
+.services {
+    background: url('../images/services-back.png') no-repeat left bottom;
+    background-size: cover;
+    width:            100%;
+    height:           auto;
+    overflow:       hidden;
+
+    h3 {
+        padding:         0 0 45px;
+        color:              white;
+        text-transform: uppercase;
+    }
+}
+
+.services-column {
+
+    width:                 100%;
+    height:                auto;
+    padding: 70px 0px 70px 70px;
+    background: url('../images/guy.png') no-repeat right bottom;
+    background-size:      580px;
+
+    .service-top-text {
+        width:         360px;
+        font-weight:     200;
+        color:         white;
+        font-family: 'Montserrat', sans-serif;
+        padding-bottom: 26px;
+    }
+
+    .rss {max-width: 100%;}
+
+ul {padding: 0;}
+
+    .rss li {
+
+        vertical-align:   top;
+        list-style-type: none;
+        background: url("../images/tick.png") 0 0 no-repeat;
+        background-size: 12px 12px;
+        padding:        0 0 0 24px;
+    }
+}
+
+.hr-form, .hr-services {
+    width:         34px;
+    height:         4px;
+    margin-top:   -40px;
+    margin-left:      0;
+    margin-bottom: 40px;
+    background-color: $brand;
+    color: $brand;
+    border: 0 none;
+}
+
+.hr-form {
+    margin: -40px auto 60px;
+}
+
+.service-item {
+    font-size:   14px;
+    line-height: 12px;
+    color:      white;
+    font-weight:  300;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* FORM SECTION */
+
+#callcontain {
+    background: url('../images/request-back.png') no-repeat left top;
+
+}
+.form {
+    margin-left:  auto;
+    margin-right: auto;
+    min-height:  500px;
+    padding: 60px 90px;
+
+    h3 {
+        padding:  0 0 30px;
+        font-size:    32px;
+        text-align: center;
+    }
+}
+
+.form-control:focus,
+.uneditable-input:focus,
+input:focus,
+input[type]:focus,
+textarea:focus {
+    box-shadow: 0 1px 1px rgba($brand, 0.8) inset, 0 0 6px rgba($brand, 0.6);
+    border-color: $brand;
+    outline:      0 none;
+}
+
+.form-control,
+.uneditable-input,
+input,
+input[type],
+textarea {
+    -webkit-border-radius: 0;
+    -moz-border-radius:    0;
+    border-radius:         0;
+    height:             40px;
+}
+
+.flex-child-success {
+    max-width:   600px;
+    max-height:  500px;
+    margin-left:  auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 4px;
+    padding: 60px 20px;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../images/img3.jpeg') top;
+    background-size: cover;
+
+    h3, small {color: white;}
+}
+
+
+/* FOOTER SECTION */
+
+footer {
+    min-height:          30px;
+    padding:           10px 0;
+    color:               #bbb;
+    background-color: $footer;
+    p {font-family: 'Montserrat', sans-serif;}
+}
+
+.actionpage {
+    min-height:          30px;
+    position:           fixed;
+    width:               100%;
+    bottom:                 0;
+    padding:           10px 0;
+    color:               #bbb;
+    background-color: $footer;
+}
+
+
+@import "media-queries";
